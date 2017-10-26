@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Uso de JQuery</title>
+
+<script type="text/javascript" src="../js/jquery.js">
+	
+</script>
+
+<script type="text/javascript">
+/* Para usar a biblioteca de JQuery, é necessário usar um caracter especial para fazer a chamada:($) ou JQuery */
+
+$(document).ready(function(){
+	$('#principal').append('<p>Texto Novo</p>');
+	$('#primeiro').click(function(){
+		$('div').append('<h2>Estou aqui!</h2>');
+	});
+}); 
+
+
+</script>
+
+</head>
+<body>
+
+<header>
+	<h1>Página com JQuery</h1>
+</header>
+	
+	<main>
+		
+		<section id="principal">
+			<div>
+				<button id="primeiro">primeiro</button><br>
+
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, voluptates! Suscipit, nisi libero non. Dolore consequuntur ad deserunt repellendus ipsa modi, veniam accusantium repudiandae, labore nihil consectetur tempora animi, sit.</div>
+				<div>Ex dolor eius, qui deserunt doloremque sint officiis odit quidem alias. Impedit amet quaerat molestias debitis aliquid, natus. Temporibus ullam iusto, blanditiis? Et cupiditate provident commodi possimus quam alias non.</div>
+				<div>Itaque quis nobis, amet fugiat odio nam sequi architecto adipisci odit fuga, impedit incidunt, non quibusdam dolore vero dolorem pariatur nostrum perspiciatis necessitatibus accusamus minus doloremque quaerat quod ducimus. Necessitatibus.</div>
+			</div>
+			<div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptatum, inventore aliquam sit cupiditate qui ullam repellendus neque molestiae hic, fugit quidem dolorem ducimus fuga modi, enim dolore illum eligendi.</div>
+				<div>Porro quod, necessitatibus quos in possimus ab debitis et sequi, minima modi autem distinctio deleniti. Facere aspernatur omnis ab, minus illo fugiat molestias totam ut, tenetur architecto eligendi qui adipisci!</div>
+				<div>Quae laudantium deleniti nam sunt consectetur eligendi iure, harum quam temporibus, animi ipsam soluta veniam eius laborum placeat assumenda vel porro nihil quod sed laboriosam delectus aut. Blanditiis, veritatis, praesentium!</div>
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>
