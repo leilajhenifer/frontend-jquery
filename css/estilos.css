@@ -1,0 +1,11 @@
+*{
+	margin:0px; /* margem externa*/
+	padding:0px; /*margem interna*/
+}
+
+header{
+	padding:5% 0px;
+	background-image:url("http://1.bp.blogspot.com/-2gO5E2MHn9g/UGMwIpZX7HI/AAAAAAAACC0/fA1MH1KmMis/s1600/136213,xcitefun-painting.jpg");
+	background-size:100%;
+	background-position:0px -600px;
+}
